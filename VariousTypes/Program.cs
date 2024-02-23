@@ -19,6 +19,9 @@ namespace VariousTypes
           char cha1 = '\u2718';
           char cha2 = '\u2668';
           char cha3 = '\u2708';
+          float flo = -40;
+          double dou = -300;
+          decimal dec = -20;
 
 
 
@@ -39,6 +42,9 @@ namespace VariousTypes
             Console.WriteLine(cha1);
             Console.WriteLine(cha2);
             Console.WriteLine(cha3);
+            Console.WriteLine(flo);
+            Console.WriteLine(dou);
+            Console.WriteLine(dec);
         }
     }
 }
