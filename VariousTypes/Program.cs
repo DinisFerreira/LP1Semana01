@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Channels;
 
 namespace VariousTypes
 {
@@ -15,6 +16,11 @@ namespace VariousTypes
           uint ui = 14785;
           ulong lon = 180000000;
           char cha =  'N';
+          char cha1 = '\u2718';
+          char cha2 = '\u2668';
+          char cha3 = '\u2708';
+
+
 
             
             
@@ -30,6 +36,9 @@ namespace VariousTypes
             Console.WriteLine(ui);
             Console.WriteLine(lon);
             Console.WriteLine(cha);
+            Console.WriteLine(cha1);
+            Console.WriteLine(cha2);
+            Console.WriteLine(cha3);
         }
     }
 }
