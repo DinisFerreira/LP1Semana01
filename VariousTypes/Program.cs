@@ -22,6 +22,8 @@ namespace VariousTypes
           float flo = -40;
           double dou = -300;
           decimal dec = -20;
+          bool Daniel = false;
+          bool Joao = true;
 
 
 
@@ -45,6 +47,8 @@ namespace VariousTypes
             Console.WriteLine(flo);
             Console.WriteLine(dou);
             Console.WriteLine(dec);
+            Console.WriteLine(Daniel);
+            Console.WriteLine(Joao);
         }
     }
 }
