@@ -4,11 +4,15 @@ namespace MeuPrograma
 {
 
 
-/// Escrever uma frase de boas vindas>
-/// usamos o comando  Console.WriteLine para escrever essas frases
-/// </Escrever uma frase de despedida>
+/// <summary>>
+/// iremos escrever uma frase 
+/// </summary>
     class Program
     {
+        /// <summary>
+        /// usamos o comando  Console.WriteLine para escrever essas frases
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
